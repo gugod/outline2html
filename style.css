@@ -1,0 +1,66 @@
+body {
+    font-family: "Palatino Linotype", Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    background: #fff;
+    color: #333;
+}
+
+h1#header {
+    margin: 0;
+    padding: 0 0 0 2em;
+    background: #eb8; /* topic color */
+    border: 1px solid black; 
+    border-width: 1px 0; 
+}
+
+#footer {
+    margin: 0; 
+    padding: 0 2em 0 0; 
+    border: 1px solid #ccc; 
+    border-width: 1px 0 0 0; 
+    font-weight: bold; 
+    text-align: right;
+    color: #999;
+    clear: both;
+}
+
+
+div#toc
+{ 
+  width: 20%;
+  background: #eb9;
+  border: 1px solid black; 
+  border-width: 2px 0; 
+  padding: 0 0.5em;
+  margin: 2em 1em; 
+  float: left;
+}
+
+div#toc h1 { display:none; }
+
+div#sections
+{ 
+  float: right;
+  width: 70%;
+}
+
+.section_root 
+{ 
+  padding-top: 0;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 1em 1em 3em 0em;
+  }
+
+.section
+{ 
+  margin: 1em 1em 3em 2em;
+ }
+
+.root_header
+{ text-decoration: underline;
+  display: inline;
+  padding: 0;
+  margin: 0;
+ }
+
